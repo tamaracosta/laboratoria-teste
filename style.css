@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+}
+
+#logo {
+    width: 30%;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#respostaCorreta, #respostaIncorreta {
+    background-color: white;
+    border: 1px solid black;
+    width: 30%;
+    height: 200px;
+    margin: 50px;
+}
+
+#resultados {
+    text-align: center;
+}
