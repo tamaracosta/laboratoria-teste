@@ -30,7 +30,7 @@ if (bemVindo == "2") {
 
 
     var resposta3 = prompt("3.Em que país a Laboratoria não tem sede? \n a.Peru \n b.Brasil \n c.Espanha");
-    if (resposta3 == "a") {
+    if (resposta3 == "c") {
         respostasCertas += "Resposta 3 Correta <br>";
     } else {
         respostasErradas = respostasErradas + "Resposta 3 Errada <br>";
@@ -42,13 +42,12 @@ if (bemVindo == "2") {
     } else {
         respostasErradas = respostasErradas + "Resposta 4 Errada <br>";
     
-        
-                
+                    
     }
 
     
-document.querySelector("#respostaCorreta").innerHTML = respostasCertas
-document.querySelector("#respostaIncorreta").innerHTML = respostasErradas
+document.querySelector("#conteudo1").innerHTML = respostasCertas
+document.querySelector("#conteudo2").innerHTML = respostasErradas
 
 } 
 

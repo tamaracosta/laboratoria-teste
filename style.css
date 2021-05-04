@@ -1,7 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: yellow;
+}
+
+body {
+    background-color: rgb(255, 255, 50);
 }
 
 #logo {
@@ -10,6 +13,11 @@
 
 #titulo {
     text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #respostaCorreta, #respostaIncorreta {
@@ -22,4 +30,6 @@
 
 #resultados {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
